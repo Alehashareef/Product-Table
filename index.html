@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table with Add Option</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="table-container">
+        <h2>Product Table</h2>
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>Apple</td>
+                    <td><img src="apple.jpg" alt="Apple" class="product-image"></td>
+                    <td>$3.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$6.00</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td><img src="banana.jpg" alt="Banana" class="product-image"></td>
+                    <td>$1.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td><img src="orange.jpg" alt="Orange" class="product-image"></td>
+                    <td>$2.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$6.00</td>
+                </tr>
+                <tr>
+                    <td>Grapes</td>
+                    <td><img src="grapes.jpg" alt="Grapes" class="product-image"></td>
+                    <td>$4.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$40.00</td>
+                </tr>
+                <tr>
+                    <td>Watermelon</td>
+                    <td><img src="watermelon.jpg" alt="Watermelon" class="product-image"></td>
+                    <td>$7.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$7.00</td>
+                </tr>
+
+                <!-- Rows with Placeholders -->
+                <tr>
+                    <td>Strawberry</td>
+                    <td><img src="strawberry.jpg" alt="Strawberry" class="product-image"></td>
+                    <td>$5.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Pineapple</td>
+                    <td><img src="pineapple.jpg" alt="Pineapple" class="product-image"></td>
+                    <td>$3.50</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td>Mango</td>
+                    <td><img src="mango.jpg" alt="Mango" class="product-image"></td>
+                    <td>$6.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>Peach</td>
+                    <td><img src="peach.jpg" alt="Peach" class="product-image"></td>
+                    <td>$4.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$8.00</td>
+                </tr>
+                <tr>
+                    <td>Blueberry</td>
+                    <td><img src="blueberry.jpg" alt="Blueberry" class="product-image"></td>
+                    <td>$9.00</td>
+                    <td><input type="number" placeholder="Enter quantity"></td>
+                    <td>$18.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="add-product">
+            
+            <form id="addProductForm">
+                <button type="button" id="addProductButton">Add Product</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+
